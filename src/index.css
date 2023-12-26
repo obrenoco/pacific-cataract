@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Asap", sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 65.01px;
+  color: #3e4649;
+  word-spacing: -2.5%;
+}
+
+h2 {
+  font-size: 58px;
+}
+
+h3 {
+  font-size: 40px;
+  line-height: 3rem;
+}
+
+.ant-menu-horizontal > .ant-menu-item::after,
+.ant-menu-horizontal > .ant-menu-submenu::after {
+  border-bottom: none !important;
+  transition: none !important;
+}
